@@ -1,0 +1,120 @@
+
+/*
+ * design document for catalog app
+ */
+
+body {
+    margin: 10;
+    padding: 10;
+    font-family: Avantgarde, "Gill Sans", Helvetica, sans-serif;
+    color: #2E3136;
+}
+
+header {
+    background-color: #2E3136;
+    height: 80px;
+    width: 100%;
+    opacity: .7;
+    margin-bottom: 10px;
+}
+
+header h1.logo {
+    margin: 10;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 2em;
+    color: #B4B7C0;
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.container {
+    width: 30%
+    margin: 0 auto;
+}
+
+div.jumbo {
+    padding: 10px 0 30px 0;
+    baground-color: #eeeeee;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #2E3136;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #B4B7C0;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 1.8em;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #2E3136;
+}
+
+h4 {
+    color: #2E3136;
+}
+
+p {
+    color: #2E3136;
+}
+
+.menu {
+    float: right;
+    margin-top: 10px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li + li {
+    margin-left: 35px;
+}
+
+.menu li + a {
+    color: #B4B7C0;
+    text-decoration: none;
+}
+
+div.item_list {
+    padding: 10px 20% 10px 20%;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+}
+
+div.cat {
+    width: 300px;
+    padding 25px;
+    border: 25px solid navy;
+    margin: 25px;
+}
+
+div.item {
+    float: left;
+    width: 300px;
+}
+
+div.desc {
+    float: right;
+    width: 300px;
+}
